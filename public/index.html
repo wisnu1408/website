@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="Website Aanz Cpanel" content="Credits By Ikyy" />
+        <title>Website Premium</title>
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+    <body>
+        <div id="load">
+            <div class="spinner"></div>
+        </div>
+        <div class="login-box">
+            <form id="loginForm">
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Username"
+                    required
+                />
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Password"
+                    required
+                />
+                <button type="submit">Login</button>
+                <a href="https://wa.me/628385813732?text=bang+pengen+buy+reseller+panel" target="_blank">Create Account</a>
+            </form>
+            <p id="status"></p>
+            <form id="cpanelForm">
+                <label for="paket">Pilih Ram Panel:</label>
+                <select id="paket" required>
+                    <option value="" disabled selected>Pilih Ram Panel</option>
+                    <option value="1GB">1GB</option>
+                    <option value="2GB">2GB</option>
+                    <option value="3GB">3GB</option>
+                    <option value="4GB">4GB</option>
+                    <option value="5GB">5GB</option>
+                    <option value="6GB">6GB</option>
+                    <option value="7GB">7GB</option>
+                    <option value="8GB">8GB</option>
+                    <option value="9GB">9GB</option>
+                    <option value="10GB">10GB</option>
+                    <option value="unlimited">Unlimited</option>
+                </select>
+                <input
+                    type="text"
+                    id="usernamePanel"
+                    placeholder="Username Panel"
+                    required
+                />
+                <input
+                    type="password"
+                    id="passwordPanel"
+                    placeholder="Password Panel"
+                    required
+                />
+                <button type="submit">Create Panel</button>
+                <div id="statusCpanel"></div>
+            </form>
+        </div>
+        <script src="js/index.js" defer></script>
+    </body>
+</html>
